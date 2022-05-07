@@ -1,0 +1,253 @@
+@media (min-width:600ox){
+  .div {
+      grid-template-columns: 1fr 1fr 1fr;;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+  color: #112D4E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+img {
+  width: 250px;
+}
+h1 {
+  color: #DBE2EF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  color: #112D4E;
+  font-size: 50px;
+  margin: 50px auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  color: #3F72AF;
+  font-size: 25px;
+  margin: 50px auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  width: 60%;
+}
+.contact-info ul {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: top;
+  text-decoration: none;
+  color: #112D4E;
+}
+.contact-info-bottom ul {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: top;
+  text-decoration: none;
+  color: white;
+}
+.top-container {
+  background-color: #112D4E;
+  /* position: relative; */
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.anchor {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: top;
+  text-decoration: none;
+  color: #112D4E;
+}
+.anchor-bottom {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: top;
+  text-decoration: none;
+  color: white;
+}
+
+.body {
+  margin: 50px 0 50px 0;
+}
+
+.body-img{
+  border-style: solid;
+}
+/* .body img {
+  border-style: solid;
+} */
+.body h1 {
+  color: #112D4E;
+}
+hr {
+  width:50%;
+  border-style: dashed;
+  color: #3F72AF;
+}
+.body-skills {
+  margin-top: 25px;
+  font-size: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+.body-skills-content{
+  padding: 1px;
+  font-size: 50px;
+  text-align: center;
+  color: #DBE2EF;
+  background-color: #112D4E;
+}
+
+.body-develop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.body-develop-content {
+  padding: 1px;
+  font-size: 30px;
+  text-align: center;
+  color: #DBE2EF;
+  background-color: #112D4E;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.body-develop-content h2 {
+  color: #DBE2EF;
+}
+.body-develop-content p {
+  margin-top: 15px;
+}
+.body-develop-img{
+  align-items: center;
+  margin: auto;
+  width: 200px;
+}
+
+.body-design {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+}
+
+.body-design-content {
+  padding: 1px;
+  font-size: 30px;
+  text-align: center;
+  color: #DBE2EF;
+  background-color: #112D4E;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.body-design-content p {
+  margin-top: 15px;
+}
+.body-design-content h2 {
+  color: #DBE2EF;
+}
+.body-design-img{
+  align-items: center;
+  margin: auto;
+  width: 200px;
+  border-style: none;
+}
+
+.body-design h2 {
+  font-size: 30px;
+}
+.body-develop h2 {
+  font-size: 30px;
+}
+
+.contact h3 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #3F72AF;
+  font-size: 30px;
+}
+.contact p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #112D4E;
+}
+.contact button {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #DBE2EF;
+  background-color: #112D4E;
+  padding: 10px 20px 10px 20px;
+  border-radius: 28px;
+}
+
+.footer {
+  margin-top: 0px;
+  background-color: #112D4E;
+  color: #DBE2EF;
+  padding-bottom: 20px;
+}
+
+.footer p {
+  margin-top: 0;
+  color: #DBE2EF;
+  font-size: 15px;
+}
+/* .footer ul {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: top;
+} */
+.notes-container {
+  display: flex;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: #112D4E;
+  justify-content: space-between;
+}
+
+.notes-info {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  justify-content: left;
+  vertical-align: top;
+  color: #DBE2EF;
+}
+.notes-info p {
+  color: #DBE2EF;
+  font-size: 20px;
+}
+.notes-container img {
+  width: 70px;
+}
+
+
+
+
